@@ -26,8 +26,8 @@ class MLAHeadingProcessor(Treeprocessor):
                 break
 
             lines.extend(element.text.split('\n'))
-            del root[i]
 
+        del root[:i]
         heading = etree.Element('div', {'class': 'heading'})
 
         for line in lines:

@@ -1,0 +1,37 @@
+h1, p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12pt;
+  line-height: 2.3em;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+}
+
+p {
+  text-indent: 3em;
+  text-align: left;
+}
+
+.heading p {
+  text-indent: 0;
+}
+
+.header-right{
+  text-align: right;
+  font-size: 10pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@page {
+  margin: .9in 1in .9in 1in;
+  size: letter portrait;
+  @top-right {
+    margin-top: .5in;
+    vertical-align: top;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10pt;
+    content: "INSERT_LAST_NAME " counter(page);
+  }
+}

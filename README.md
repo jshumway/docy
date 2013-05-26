@@ -3,6 +3,11 @@ Docy
 
 Transform markdown to MLA PDFs.
 
+Requirements
+------------
+
+The Python libraries in requirements.txt require the non-standard system libraries `libxml2-dev`, `libxslt-dev`, and `libffi-dev`.
+
 Architecture
 ------------
 
