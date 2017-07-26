@@ -19,4 +19,4 @@ Style
 -----
 
 All code in the docy repository is [Pep8](http://www.python.org/dev/peps/pep-0008/) compliant. All code passes the [PyFlakes](https://pypi.python.org/pypi/pyflakes) static code checker without warning.
-`pep8 docy` and `pyflakes docy` should have **zero** output. If non-compliant code is commited (code that generates output for either of the two command above), you will be mocked.
+`pep8 docy` and `pyflakes docy` should have **zero** output.
