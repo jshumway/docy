@@ -1,7 +1,7 @@
 Docy
 ====
 
-Transform markdown to MLA PDFs.
+Create MLA compliant PDFs given a markdown file. Who wants to use word processors anyway?
 
 Requirements
 ------------
